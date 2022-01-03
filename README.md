@@ -6,6 +6,13 @@ First load dplyr by loading tidyverse
 
 ![image](https://user-images.githubusercontent.com/90977689/147964233-df7fc576-5d14-4bd3-a828-543cd50aedf8.png)
 
+load the data:
+
+![image](https://user-images.githubusercontent.com/90977689/147965457-4e92f6d6-eaf1-4372-8b2d-35e9a1bc4dd8.png)
+
+
+![image](https://user-images.githubusercontent.com/90977689/147965409-161cc5a3-9958-4042-91c3-e6636de412aa.png)
+
 
 then build the linear regression model:
 
