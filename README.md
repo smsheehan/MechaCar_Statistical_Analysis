@@ -22,4 +22,19 @@ Then use the summary function to determine the p-value and r-squared value for t
 
 ![image](https://user-images.githubusercontent.com/90977689/147964451-5693dc95-4f9d-4118-b950-315a1ea1ef61.png)
 
+## Summary Statistics on Suspension Coils
+
+total_summary dataframe:
+
+![image](https://user-images.githubusercontent.com/90977689/147977116-67cfeb58-6f86-494f-83e7-39ad3f28dafc.png)
+
+![image](https://user-images.githubusercontent.com/90977689/147976876-58bc5ce8-de9d-4063-8b20-fb808f7c1b79.png)
+
+lot_summary dataframe:
+
+![image](https://user-images.githubusercontent.com/90977689/147977068-7d8210c9-1cd3-4cf6-b8c3-312a33246602.png)
+
+![image](https://user-images.githubusercontent.com/90977689/147976954-f501b1e6-9698-4e88-b187-0fd298169a13.png)
+
+
 
