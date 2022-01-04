@@ -36,5 +36,15 @@ lot_summary dataframe:
 
 ![image](https://user-images.githubusercontent.com/90977689/147976954-f501b1e6-9698-4e88-b187-0fd298169a13.png)
 
+## T-Tests on Suspension Coils
+
+![image](https://user-images.githubusercontent.com/90977689/147998540-c79d37b7-c87c-4045-9d1d-237ef231e87b.png)
+
+![image](https://user-images.githubusercontent.com/90977689/147998562-0b659bca-2551-4ba8-8563-57853b952076.png)
+
+![image](https://user-images.githubusercontent.com/90977689/147998603-aef684f6-0559-42ea-9517-6ff417663df4.png)
+
+![image](https://user-images.githubusercontent.com/90977689/147998646-0e1fb313-bbe6-44e3-817a-64f55fff3829.png)
+
 
 
