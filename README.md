@@ -70,5 +70,16 @@ In this part of the challenge we are performing t-tests on the mean PSI for the 
 * Lot 2: p-value of 0.6072.  We can not reject the Null Hypothesis
 * Lot 3: p-value = 0.04168.  We reject the Null Hypothesis and can declare that there is a statistically significant difference between the mean PSI for Lot 3 and the population mean of 1500 PSI.
 
+## Study Design: MechaCar vs Competition
 
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+Mechacar will compete on horsepower, torque, and safety rating.  With a name like Mechacar, our machine needs to be seen as powerful, rugged, and safe!
+
+What metric or metrics are you going to test?  We are going to test: hp, torque, and safety rating
+
+What is the null hypothesis or alternative hypothesis?  The Null Hypothesis is that Mechacar is not different from the competition in the given metric.
+
+What statistical test would you use to test the hypothesis? And why? For each metric, we would compare Mechacar vs competitor.  For example, we would compare mean of the measured hp for Mechacar vs competitor 1, then Mechacar vs competitor 2, etc.  And we would also do this individually for torque and safetry rating.  Assuming safety rating is a numerical value and not categorical, for each of the three metrics we would use the two sample t-test since we would be comparing two separate samples.
+
+What data is needed to run the statistical test? We would need to obtain hp, torque, and safety rating data for Mechcar and competitors.  We would like for our data to be based on triplicate measurements from a sufficient number (n) of vehicles in each group to make sure we are not being mislead by individual car to car variability.  For example, if we just compared data from one test of one Mechacar against data for one car from competitor 1, we would not be able to feel good about our ability to compare the data across the entire production of vehicles.
 
