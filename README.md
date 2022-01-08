@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-First load dplyr by loading tidyverse
+First load dplyr by loading tidyverse as dplyr is one of the packages in tidyverse.  One could also load dplyr direcly with library(dplyr).
 
 ![image](https://user-images.githubusercontent.com/90977689/147964233-df7fc576-5d14-4bd3-a828-543cd50aedf8.png)
 
