@@ -63,5 +63,12 @@ This question helps us see the value of analyzing data at as granular a level as
 
 ![image](https://user-images.githubusercontent.com/90977689/147998646-0e1fb313-bbe6-44e3-817a-64f55fff3829.png)
 
+In this part of the challenge we are performing t-tests on the mean PSI for the group and then for each individual lot.  In each case we are testing to see if we can rule out the Null Hypothesis (No significant difference between the evaluated group's mean PSI and the population mean of 1500 PSI).  If in the t-test we acheive a p-value of .05 or below, then we would reject the Null Hypothesis and accept the Alternative Hypothesis (there is a significant difference between the evaluated group's mean PSI and the population mean of 1500 PSI).  Here is what we learned
+
+* All lots combined: p-value of 0.06028.  We can not reject the Null Hypothesis
+* Lot 1: p-value of 1.  We can not reject the Null Hypothesis
+* Lot 2: p-value of 0.6072.  We can not reject the Null Hypothesis
+* Lot 3: p-value = 0.04168.  We reject the Null Hypothesis and can declare that there is a statistically significant difference between the mean PSI for Lot 3 and the population mean of 1500 PSI.
+
 
 
