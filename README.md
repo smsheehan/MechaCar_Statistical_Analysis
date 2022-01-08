@@ -29,7 +29,7 @@ Based on our linear regression model, vehicle length and ground clearance both p
 The slope of the linear model is not considered to be zero.  This is because we had two attributes (independent variables) which significantly impact our mpg (dependent variable).  Only in a case where none of the independent variables have an effect on mpg would the slope be zero.
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-This is an interesting question.  In the vein of George Box's famous quote that "All models are wrong.  Some models are useful", I would say this model is only useful in providing a rough understanding of the general relationship between length and ground clearance on mpg.  According to our summary and looking at the r-squared value, this model is only 71% predictive.  I personally would work to gather more data and perhaps include some more independent variables in my dataset to see if that improves my model.
+This is an interesting question.  In the vein of George Box's famous quote that "All models are wrong.  Some models are useful", I would say this model is only useful in providing a rough understanding of the general relationship between length and ground clearance on mpg.  According to our summary and looking at the multiple r-squared value, this model is only 71% predictive (in other words only 71% of the variance in our mpg is explained by the analyzed independent variables).  I personally would work to gather more data and perhaps include some more independent variables in my dataset to see if that improves my model.
 
 ## Summary Statistics on Suspension Coils
 
