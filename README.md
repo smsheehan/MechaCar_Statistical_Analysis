@@ -23,12 +23,15 @@ Then use the summary function to determine the p-value and r-squared value for t
 ![image](https://user-images.githubusercontent.com/90977689/147964451-5693dc95-4f9d-4118-b950-315a1ea1ef61.png)
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
 Based on our linear regression model, vehicle length and ground clearance both provided a non-random amount of variance to the mpg values.  Surprisingly, vehicle weight did not.  Since this doesn't match with our intuitive sense about cars, we would need to dig more deeply into the data to see why.  Perhaps in the data set, vehicle weights didn't change that dramatically across the set of vehicles tested.  Or if there were large changes in vehicle weight, they may have been accompanied by dramatic changes in other which complicated the analysis.  In any rate, we would want to understand this in more depth.
   
 * Is the slope of the linear model considered to be zero? Why or why not?
+
 The slope of the linear model is not considered to be zero.  This is because we had two attributes (independent variables) which significantly impact our mpg (dependent variable).  Only in a case where none of the independent variables have an effect on mpg would the slope be zero.
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 This is an interesting question.  In the vein of George Box's famous quote that "All models are wrong.  Some models are useful", I would say this model is only useful in providing a rough understanding of the general relationship between length and ground clearance on mpg.  According to our summary and looking at the multiple r-squared value, this model is only 71% predictive (in other words only 71% of the variance in our mpg is explained by the analyzed independent variables).  I personally would work to gather more data and perhaps include some more independent variables in my dataset to see if that improves my model.
 
 ## Summary Statistics on Suspension Coils
